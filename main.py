@@ -1,22 +1,29 @@
 import requests
 import re
 import datetime
+from opencc import OpenCC
+
+# 初始化繁簡轉換器 (s2t = Simplified to Traditional)
+cc = OpenCC('s2t')
 
 # --- 設定區 ---
 
-# 1. 來源列表 (聚合多個穩定的公開源)
+# 1. 來源列表
 SOURCE_URLS = [
     "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
     "https://raw.githubusercontent.com/yuanzl77/IPTV/main/live.m3u",
     "https://raw.githubusercontent.com/live-television/m3u/master/Hong%20Kong.m3u"
 ]
 
-# 2. 關鍵字過濾 (只保留這些頻道)
-KEYWORDS = ["ViuTV", "HOY", "RTHK", "Jade", "Pearl", "J2", "無線新聞", "有線新聞", "Now", "港台", "翡翠", "明珠"]
+# 2. 關鍵字過濾 (包含簡體與繁體，確保能抓到所有潛在頻道)
+KEYWORDS = [
+    "ViuTV", "HOY", "RTHK", "Jade", "Pearl", "J2", "J5", "Now", 
+    "无线", "無線", "有线", "有線", "翡翠", "明珠", "港台", 
+    "凤凰", "鳳凰", "电视", "電視", "高清", "News"
+]
 
-# 3. 必備的官方/穩定源 (不管檢測結果如何，強制加入，保證有台可看)
+# 3. 必備的官方/穩定源 (強制加入)
 STATIC_CHANNELS = [
-    # RTHK 官方源 (通常無鎖，全球可看)
     {"name": "RTHK 31", "url": "https://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/index_2052_av-b.m3u8"},
     {"name": "RTHK 32", "url": "https://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/index_2052_av-b.m3u8"}
 ]
@@ -49,14 +56,17 @@ def fetch_and_parse():
                 if not line: continue
                 
                 if line.startswith("#EXTINF"):
-                    # 嘗試提取頻道名稱
+                    # 提取頻道名稱
                     match = re.search(r',(.+)$', line)
                     if match:
-                        current_name = match.group(1).strip()
+                        raw_name = match.group(1).strip()
+                        # 在這裡直接將名稱轉為繁體，方便後續比對和輸出
+                        current_name = cc.convert(raw_name)
                 elif line.startswith("http") and current_name:
-                    # 檢查名稱是否包含關鍵字
-                    if any(k.lower() in current_name.lower() for k in KEYWORDS):
-                        # 去重
+                    # 檢查名稱是否包含關鍵字 (因為名稱已轉繁體，所以關鍵字比對也會生效)
+                    # 為了保險，我們把 name 和 keyword 都轉成小寫來比對
+                    if any(cc.convert(k).lower() in current_name.lower() for k in KEYWORDS):
+                        # 去重：檢查 URL 是否已存在
                         if not any(c['url'] == line for c in found_channels):
                             found_channels.append({"name": current_name, "url": line})
                     current_name = "" # 重置
@@ -73,8 +83,7 @@ def generate_m3u(channels):
     # 1. 先加入靜態必備源
     for static in STATIC_CHANNELS:
         final_list.append(static)
-        print(f"[Static] {static['name']} Added.")
-
+        
     # 2. 檢測抓取到的源
     for ch in channels:
         print(f"Checking: {ch['name']}...", end=" ")
@@ -89,13 +98,15 @@ def generate_m3u(channels):
     content += f'# Update: {datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")}\n'
     
     for item in final_list:
-        content += f'#EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/{item["name"]}.png",{item["name"]}\n'
+        # 再次確保寫入的是繁體 (雖然上面已經轉過了，這裡雙重保險)
+        final_name = cc.convert(item["name"])
+        content += f'#EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/{final_name}.png",{final_name}\n'
         content += f'{item["url"]}\n'
 
     with open("hk_live.m3u", "w", encoding="utf-8") as f:
         f.write(content)
 
-    print(f"完成！共收錄 {len(final_list)} 個有效頻道。")
+    print(f"完成！共收錄 {len(final_list)} 個有效頻道 (全繁體)。")
 
 if __name__ == "__main__":
     candidates = fetch_and_parse()
