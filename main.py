@@ -10,6 +10,13 @@ cc = OpenCC('s2t')
 
 # 1. 來源列表
 SOURCE_URLS = [
+    "https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/refs/heads/master/m3u/%E5%8F%B0%E6%B9%BE%E9%A6%99%E6%B8%AF%E6%BE%B3%E9%97%A8202506.m3u",
+    "https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/refs/heads/master/m3u/%E5%8F%B0%E6%B9%BE%E9%A6%99%E6%B8%AF%E6%BE%B3%E9%97%A82023.m3u",
+    "https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/refs/heads/master/m3u/%E5%8F%B0%E6%B9%BE%E9%A6%99%E6%B8%AF%E6%BE%B3%E9%97%A82022-7.m3u",
+    "https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/refs/heads/master/m3u/%E5%8F%B0%E6%B9%BE%E9%A6%99%E6%B8%AF%E6%BE%B3%E9%97%A82022-11.m3u",
+    "https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/refs/heads/master/m3u/%E5%8F%B0%E6%B9%BE%E9%A6%99%E6%B8%AF%E6%B5%B7%E5%A4%96202005.m3u",
+    "https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/refs/heads/master/m3u/%E5%8F%B0%E6%B9%BE%E9%A6%99%E6%B8%AF%E6%B5%B7%E5%A4%96202003.m3u",
+    "https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/refs/heads/master/m3u/%E5%8F%B0%E6%B9%BE%E9%A6%99%E6%B8%AF%E6%B5%B7%E5%A4%96.m3u",
     "https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/refs/heads/master/m3u/1300%E4%B8%AA%E7%9B%B4%E6%92%AD%E6%BA%90%E5%85%A8%E9%83%A8%E6%9C%89%E6%95%88%E3%80%90%E5%85%A8%E9%83%A84k%E8%80%81%E7%94%B5%E8%84%91%E5%88%AB%E7%94%A8%E3%80%91.m3u8",
     "https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/refs/heads/master/m3u/5000%E4%B8%AA%E7%9B%B4%E6%92%AD%E6%BA%90%E5%85%A8%E9%83%A8%E6%9C%89%E6%95%88.m3u",
     "https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/refs/heads/master/m3u/%E6%88%91%E7%9A%84%E6%92%AD%E6%94%BE%E6%BA%90.m3u8",
@@ -19,6 +26,7 @@ SOURCE_URLS = [
     "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
     "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
     "https://raw.githubusercontent.com/yuanzl77/IPTV/main/live.m3u",
+    "https://iptv-org.github.io/iptv/index.m3u",
     "https://iptv-org.github.io/iptv/countries/hk.m3u",
     "https://raw.githubusercontent.com/joevess/IPTV/main/home.m3u8",
     "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
@@ -52,12 +60,12 @@ BLOCK_KEYWORDS = [
 
 # 4. 【已更新】頻道排序優先級 (越上面越靠前)
 ORDER_KEYWORDS = [
+     "Now新聞", "Now直播",                          # Now系列
     "翡翠", "無線新聞", "明珠", "J2", "J5", "財經",  # TVB系列
     "ViuTV", "Viutv", "VIUTV", "ViuTV 6", "ViuTVsix",  # Viu系列 (包含你加入的大小寫變體)
     "HOY", "奇妙", "有線",                         # HOY/Cable系列
     "港台電視31", "RTHK 31",                      # RTHK系列
-    "港台電視32", "RTHK 32",
-    "Now新聞", "Now直播"                          # Now系列
+    "港台電視32", "RTHK 32"
 ]
 
 # 5. 必備的官方/穩定源
