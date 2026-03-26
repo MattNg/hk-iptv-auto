@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epg.112114.xyz/pp.xml"
-# Update: 2026-03-26 01:29:19
+# Update: 2026-03-26 12:59:14
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/翡翠.png",翡翠
 http://php.jdshipin.com/smt.php?id=jade_twn
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/翡翠.png",翡翠
@@ -16,6 +16,8 @@ http://r.jdshipin.com/qrfbg
 http://r.jdshipin.com/n90gt
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/翡翠台.png",翡翠台
 http://r.jdshipin.com/GeWKr
+#EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/翡翠台.png",翡翠台
+http://iptv.4666888.xyz/iptv2A.php?id=34
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/TVB翡翠台.png",TVB翡翠台
 http://cdn9.163189.xyz/smt1.1.php?id=jade_twn
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/TVB翡翠台 1080P.png",TVB翡翠台 1080P
@@ -43,8 +45,6 @@ http://r.jdshipin.com/GeWKr?id=fct406$LR•IPV4『线路30』
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/翡翠台.png",翡翠台
 http://r.jdshipin.com/GeWKr?id=fct720$LR•IPV4『线路31』
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/翡翠台.png",翡翠台
-http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0401&tk=2aca1ad9a849$LR•IPV4『线路39』
-#EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/翡翠台.png",翡翠台
 http://fm1077.serv00.net/Smart.php?id=jade_twn$LR•IPV4『线路41』
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/無線新聞.png",無線新聞
 http://www.liveviptv.xyz/tv/tvb.php?vid=wxxw
@@ -58,6 +58,10 @@ http://php.jdshipin.com:8880/smt.php?id=inews_twn
 http://php.jdshipin.com/TVOD/iptv.php?id=wxxw
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/明珠台.png",明珠台
 http://r.jdshipin.com/ZQ4kN
+#EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/明珠台.png",明珠台
+http://r.jdshipin.com/jUx8K
+#EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/明珠台.png",明珠台
+http://iptv.4666888.xyz/iptv2A.php?id=29
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/TVB明珠台.png",TVB明珠台
 http://cdn9.163189.xyz/smt1.1.php?id=pearl_twn
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/明珠台.png",明珠台
@@ -66,8 +70,6 @@ http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
 http://aktv.top/AKTV/live/aktv/null-2/AKTV.m3u8$LR•IPV4
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/J2.png",J2
 http://fm1077.serv00.net/Smart.php?id=j2_twn$LR•IPV4
-#EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/有線財經信息台.png",有線財經信息台
-https://epg.pw/stream/0fddc0600d3868b05ad741d46294410aebca0fdc4fada5028dc54e624b7b17ca.m3u8
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/ViuTV.png",ViuTV
 http://r.jdshipin.com/vSJvl
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/ViuTV.png",ViuTV
@@ -96,10 +98,10 @@ http://61.10.2.141/live_freedirect/freehd209_h.live/playlist.m3u
 http://cm61-10-2-143.hkcable.com.hk/live_freedirect/freehd209_h.live/playlist.m3u8
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/有線新聞台.png",有線新聞台
 https://epg.pm/stream/7f7227d59a7dce31cf6910bcdb4ed741f8fb5994cecb87d2bba38adf33e6c490.m3u8
+#EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/有線新聞.png",有線新聞
+http://iptv.4666888.xyz/iptv2A.php?id=31
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/港台電視31 (官方).png",港台電視31 (官方)
 https://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/index_2052_av-b.m3u8
-#EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/RTHK TV 31 (港台電視31) (360p) [Geo-blocked].png",RTHK TV 31 (港台電視31) (360p) [Geo-blocked]
-https://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/master.m3u8
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/RTHK 31.png",RTHK 31
 https://www.rthk.hk/feeds/dtt/rthktv31_https.m3u8
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/港台電視32 (官方).png",港台電視32 (官方)
@@ -118,8 +120,6 @@ http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
 http://playtv-live.ifeng.com:80/live/06OLEEWQKN4.m3u8
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰中文.png",鳳凰中文
 http://playtv-live.ifeng.com:80/live/06OLEGEGM4G.m3u8
-#EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/RTHKTV31.png",RTHKTV31
-https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰中文.png",鳳凰中文
 http://r.jdshipin.com/cCCzW
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰資訊.png",鳳凰資訊
@@ -144,14 +144,14 @@ http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk32
 http://cdn.163189.xyz/163189/now
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/特種兵之火鳳凰.png",特種兵之火鳳凰
 https://live.ottiptv.cc/huya/29982636
+#EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰中文.png",鳳凰中文
+http://iptv.4666888.xyz/iptv2A.php?id=27
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰資訊.png",鳳凰資訊
 http://61.221.215.25:8800/hls/47/index.m3u8
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰衛視.png",鳳凰衛視
 http://php.jdshipin.com:8880/smt.php?id=phoenixtv_hd
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰中文.png",鳳凰中文
 http://www.terrykang.cn:5678/sxg.php?id=test1_4000$LR•IPV4『线路1』
-#EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰中文.png",鳳凰中文
-http://dms.yryyj.site:8188/udp/239.76.246.135:1234$LR•IPV4『线路11』
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰中文.png",鳳凰中文
 http://aktv.top/AKTV/live/aktv/null-3/AKTV.m3u8$LR•IPV4『线路26』
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰中文.png",鳳凰中文
@@ -160,28 +160,20 @@ https://cdn.163189.xyz/live/fhzw/stream.m3u8$LR•IPV4『线路28』
 http://8.138.7.223/tv/gdmzyd.php?id=4$LR•IPV4『线路30』
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰中文.png",鳳凰中文
 http://cdn.163189.xyz/live/fhzw/stream.m3u8$LR•IPV4『线路41』
-#EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰中文.png",鳳凰中文
-http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8654&tk=e503191f8e20$LR•IPV4『线路65』
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰資訊.png",鳳凰資訊
 http://www.terrykang.cn:5678/sxg.php?id=test2_4000$LR•IPV4『线路1』
-#EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰資訊.png",鳳凰資訊
-http://dms.yryyj.site:8188/udp/239.76.246.134:1234$LR•IPV4『线路9』
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰資訊.png",鳳凰資訊
 http://dms.yryyj.site:8188/udp/239.76.253.134:9000$LR•IPV4『线路10』
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰資訊.png",鳳凰資訊
 http://aktv.top/AKTV/live/aktv/null-4/AKTV.m3u8$LR•IPV4『线路33』
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰資訊.png",鳳凰資訊
 https://haoyunlai.serv00.net/Smartv-1.php?id=phoenixinfo_hd$LR•IPV4『线路49』
-#EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰資訊.png",鳳凰資訊
-http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5282&tk=2aca1ad9a849$LR•IPV4『线路79』
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰香港.png",鳳凰香港
 http://aktv.top/AKTV/live/aktv/null-5/AKTV.m3u8$LR•IPV4『线路12』
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰香港.png",鳳凰香港
 https://haoyunlai.serv00.net/Smartv-1.php?id=hkphoenix_twn$LR•IPV4『线路14』
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰香港.png",鳳凰香港
 https://aktv.top/AKTV/live/aktv/null-5/AKTV.m3u8$LR•IPV4『线路19』
-#EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰香港.png",鳳凰香港
-http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3523&tk=7877e7cc41c7$LR•IPV4『线路29』
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰衛視.png",鳳凰衛視
 http://119.32.12.17:2901/udp/224.1.100.3:11111$LR•IPV4『线路2』
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/鳳凰衛視.png",鳳凰衛視
