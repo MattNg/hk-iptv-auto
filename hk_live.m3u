@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epg.112114.xyz/pp.xml"
-# Update: 2026-04-04 12:39:55
+# Update: 2026-04-05 01:33:09
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/翡翠.png",翡翠
 http://php.jdshipin.com/TVOD/iptv.php?id=fct2
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/翡翠.png",翡翠
@@ -12,8 +12,8 @@ http://r.jdshipin.com/qrfbg
 http://r.jdshipin.com/n90gt
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/翡翠台.png",翡翠台
 http://r.jdshipin.com/GeWKr
-#EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/翡翠台.png",翡翠台
-http://iptv.4666888.xyz/iptv2A.php?id=34
+#EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/TVB翡翠台.png",TVB翡翠台
+http://cdn9.163189.xyz/smt1.1.php?id=jade_twn
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/TVB翡翠台 1080P.png",TVB翡翠台 1080P
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/翡翠台4K.png",翡翠台4K
@@ -226,6 +226,8 @@ https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
 https://videostream.jpbgdigital.com/CHNWTV.m3u8
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/Now TV 102.3FM Edmonton (CKNO-FM) (616p).png",Now TV 102.3FM Edmonton (CKNO-FM) (616p)
 https://videostream.jpbgdigital.com/NOWTV.m3u8
+#EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/Romedy Now (576p).png",Romedy Now (576p)
+http://103.157.248.140:8000/play/a015/index.m3u8
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/Times Now Navbharat (1080p) [Geo-blocked].png",Times Now Navbharat (1080p) [Geo-blocked]
 https://amg01448-samsungin-tinnavbharat-samsungin-ad-m8.amagi.tv/playlist/amg01448-samsungin-tinnavbharat-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/True Crime Now (720p).png",True Crime Now (720p)
