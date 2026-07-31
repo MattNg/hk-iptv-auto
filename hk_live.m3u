@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epg.112114.xyz/pp.xml"
-# Update: 2026-07-30 13:34:20
+# Update: 2026-07-31 01:59:45
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/翡翠.png",翡翠
 http://php.jdshipin.com/TVOD/iptv.php?id=fct2
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/翡翠台.png",翡翠台
@@ -172,8 +172,6 @@ https://amg00170-curiositystream-amg00170c3-rakuten-us-2289.playouts.now.amagi.t
 https://amg00170-amg00170c4-samsung-gb-4232.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/ElectricNOW (1080p) [Geo-blocked].png",ElectricNOW (1080p) [Geo-blocked]
 https://pb-aexv6wqzkg929.akamaized.net/ElectricNOW.m3u8
-#EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/HEi Now (1080p).png",HEi Now (1080p)
-https://copacogen.desdeparaguay.net/heitv/heitv_py_alta/playlist.m3u8?admin=nacion
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/History & Warfare Now (1080p).png",History & Warfare Now (1080p)
 https://d1nzda2a2b3swt.cloudfront.net/History_Warfare_Now.m3u8
 #EXTINF:-1 group-title="Hong Kong" logo="https://epg.112114.xyz/logo/History and Warfare Now (1080p).png",History and Warfare Now (1080p)
